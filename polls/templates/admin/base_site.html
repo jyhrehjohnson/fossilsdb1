@@ -1,0 +1,13 @@
+{% extends "admin/base.html" %}
+{% load i18n admin_urls static %}
+
+{% block title %}{{ title }} | {% trans "The University of Texas at Austin Fossil Catalog" %}{% endblock %}
+{% block extrastyle %}
+    <link rel="stylesheet" type="text/css" href="{% static "django_color.css" %}"/>
+{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name">{% trans "The University of Texas at Austin Fossil Catalog" %}</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

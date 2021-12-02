@@ -1,0 +1,29 @@
+{#{% extends "base.html" %}#}
+{#{% block content %}#}
+{#<div class="grid-container">#}
+{#  <div class="grid-x grid-margin-x">#}
+{#    <div class="medium-10 cell">#}
+{#      <h3>UT Hominin Fossil Catalog</h3>#}
+{#        <p>The following list is a catalog of all the fossil hominins housed within the University of Texas at Austin's#}
+{#        Anthropology Department. Each entry provides the specimen catalog number, UT catalog ID, location in the#}
+{#        department, and formal scientific name. Species entries also include a photograph of the fossil, the fossil's#}
+{#        age, if it is a type specimen, and site information. </p>#}
+{#      <hr/>#}
+{##}
+{#      <!-- simple listing -->#}
+{#      <div>#}
+{#        <ul>#}
+{#          {% for name in fossil %}#}
+{#          <h4><a href="{% url 'casts:fossil_detail_view' name.id %}">{{ name.verbatim_name | safe }}</a></h4>#}
+{#          <!-- main reference -->#}
+{#          <p>#}
+{#          {% endif %}#}
+{#          </p>#}
+{#          {% endfor %}#}
+{#        </ul>#}
+{#      </div>#}
+{##}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+{#{% endblock %}#}
