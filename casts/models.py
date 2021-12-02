@@ -15,7 +15,9 @@ without these fields needing to be filled in at the time of submission.
 
 
 class Fossil(models.Model):  # create class for fossil casts
-
+    """
+    Model for fossil object
+    """
     catalog_number = models.CharField(max_length=200)
     # collection_code = models.CharField("UT")
     # item_part = models.CharField("a,b,c,d")
