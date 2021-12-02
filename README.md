@@ -4,8 +4,11 @@ My final project for BIO 382
 This final project set out to modify the Django admin interface to produce a new database/app cataloguing the hominin and primate fossil casts housed in the Anthropology Department. For the purpose of this final project and with the time constraints fo the semester, I will only be presenting the database administrative page and the source code associated with this page. A further implication for this project is to set up and run a public facing page for departmental use. I will submit the full project with all the code I have created. Please draw your attention to the settings.py (fossilsdb1 directory), admin.py (casts directory), and models.py (casts directory)
 ## Instructions for Dr. Linder
 -Download PyCham
+
 -Use the 'requirements' file to download the necessary packages to run my project
+
 -Download my code from github
+
 -Once you load my project into PyCharm click the green arrow to Run
 
 Once you run the server, you should see 
