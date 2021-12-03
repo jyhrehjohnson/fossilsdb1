@@ -1,13 +1,13 @@
 # fossilsdb1
-BIO 382 Final Project
+## BIO 382 Final Project
 ## Project Description
-This final project set out to modify the Django admin interface to produce a new database/application cataloguing the hominin fossil and primate casts housed in the Anthropology Department. For the purpose of this final project and with the time constraints fo the semester, I will only be presenting the database administrative page and the source code associated with it. A further implication for this project is to set up and run a public facing page for departmental use. I will submit the full project with all the code I have created. Please draw your attention to the settings.py (fossilsdb1 directory), admin.py (casts directory), and models.py (casts directory)
+This final project set out to modify the Django admin interface to produce a new database/application cataloguing the hominin fossil and primate casts housed in the Anthropology Department. For the purpose of this final project and with the time constraints of the semester, I present the database administrative page and the source code associated with it. In this project, I present source code that allows the user to input data directly through the admin page or file import, code to export all input data, and create models for display. The source code for settings.py can be found in the fossilsdb1 directory, admin.py in the casts directory, and models.py in the casts directory. Through this poject I learned how to use Django, PyCharm, and GitHub. A further implication for this project is to set up and run a public facing page for departmental use.
 ## Instructions for Dr. Linder
 -Download PyCharm
 
--Use the 'requirements' file to download the necessary packages to run my project
-
 -Download the code from github
+
+-In your vitual environment, run the command "pip install -r requirements.txt" to download the packages needed to run the project from the 'requirements.txt' file.
 
 -Once you load the project into PyCharm click the green arrow at the top to Run
 
@@ -23,7 +23,7 @@ Click http://127.0.0.1:8000/ to open the database.
 
 -Once you have clicked the link, in the address, bar add /admin/ after the last forward slash. It should look like this: http://127.0.0.1:8000/admin/ this will bring you to the admin sign in page. 
 
--Please enter the following credentials to gain access:
+-Enter the following credentials to gain access:
 
 -Username = rlinder 
 
