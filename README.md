@@ -24,6 +24,7 @@ Click http://127.0.0.1:8000/ to open the database.
 -Once you have clicked the link, in the url bar add /admin/ after the last forward slash. It should look like this: http://127.0.0.1:8000/admin/ this will bring you to the admin sign in page. 
 
 -Please enter the following credentials to gain access
+
 -Username = rlinder 
 
 -Password = Bio382_rl
