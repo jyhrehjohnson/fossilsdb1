@@ -11,7 +11,7 @@ This final project set out to modify the Django admin interface to produce a new
 
 -Once you load the project into PyCharm click the green arrow at the top to Run
 
-Once you run the server, you should see 
+After you run the server, you should see 
 
 System check identified no issues (0 silenced).
 December 02, 2021 - 19:26:37
@@ -21,7 +21,8 @@ Quit the server with CONTROL-C.
 
 Click http://127.0.0.1:8000/ to open the database. 
 
--Once you have clicked the link, in the address, bar add /admin/ after the last forward slash. It should look like this: http://127.0.0.1:8000/admin/ this will bring you to the admin sign in page. 
+-After you have clicked the link, in the address bar, add /admin/ after the last forward slash. 
+It should look like this: http://127.0.0.1:8000/admin/ this will bring you to the admin sign-in page. 
 
 -Enter the following credentials to gain access:
 
