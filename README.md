@@ -24,7 +24,7 @@ Click http://127.0.0.1:8000/ to open the database.
 -After you have clicked the link, in the address bar, add /admin/ after the last forward slash. 
 It should look like this: http://127.0.0.1:8000/admin/ this will bring you to the admin sign-in page. 
 
--Enter the your credentials to gain access.
+-*Review my pseudocode to gain access.*
 
 -Under the 'Casts' header click 'Fossils'
 
