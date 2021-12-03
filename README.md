@@ -7,7 +7,7 @@ This final project set out to modify the Django admin interface to produce a new
 
 -Download the code from github.
 
--In your vitual environment, run the command "pip install -r requirements.txt" to download the packages needed to run the project from the 'requirements.txt' file.
+-In your virtual environment, run the command "pip install -r requirements.txt" to download the packages needed to run the project from the 'requirements.txt' file.
 
 -Once you load the project into PyCharm click the green arrow at the top to Run.
 
