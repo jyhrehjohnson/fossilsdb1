@@ -31,7 +31,9 @@ It should look like this: http://127.0.0.1:8000/admin/ this will bring you to th
 -Password = Bio382_rl
 
 -Under the 'Casts' header click 'Fossils'
+
 -Once you have clicked 'Fossils' you will be brought to the admin page where you can input fossils
 
 -I have provided an example input file for you to test the input function of the admin
+
 -Use the export button to export the information presented in the admin
