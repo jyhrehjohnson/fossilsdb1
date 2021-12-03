@@ -1,15 +1,15 @@
 # fossilsdb1
-My final project for BIO 382
+BIO 382 Final Project
 ## Project Description
-This final project set out to modify the Django admin interface to produce a new database/app cataloguing the hominin and primate fossil casts housed in the Anthropology Department. For the purpose of this final project and with the time constraints fo the semester, I will only be presenting the database administrative page and the source code associated with this page. A further implication for this project is to set up and run a public facing page for departmental use. I will submit the full project with all the code I have created. Please draw your attention to the settings.py (fossilsdb1 directory), admin.py (casts directory), and models.py (casts directory)
+This final project set out to modify the Django admin interface to produce a new database/application cataloguing the hominin fossil and primate casts housed in the Anthropology Department. For the purpose of this final project and with the time constraints fo the semester, I will only be presenting the database administrative page and the source code associated with it. A further implication for this project is to set up and run a public facing page for departmental use. I will submit the full project with all the code I have created. Please draw your attention to the settings.py (fossilsdb1 directory), admin.py (casts directory), and models.py (casts directory)
 ## Instructions for Dr. Linder
--Download PyCham
+-Download PyCharm
 
 -Use the 'requirements' file to download the necessary packages to run my project
 
--Download my code from github
+-Download the code from github
 
--Once you load my project into PyCharm click the green arrow to Run
+-Once you load the project into PyCharm click the green arrow at the top to Run
 
 Once you run the server, you should see 
 
@@ -21,9 +21,9 @@ Quit the server with CONTROL-C.
 
 Click http://127.0.0.1:8000/ to open the database. 
 
--Once you have clicked the link, in the url bar add /admin/ after the last forward slash. It should look like this: http://127.0.0.1:8000/admin/ this will bring you to the admin sign in page. 
+-Once you have clicked the link, in the address, bar add /admin/ after the last forward slash. It should look like this: http://127.0.0.1:8000/admin/ this will bring you to the admin sign in page. 
 
--Please enter the following credentials to gain access
+-Please enter the following credentials to gain access:
 
 -Username = rlinder 
 
